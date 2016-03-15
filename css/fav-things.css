@@ -1,0 +1,42 @@
+html {
+  /*box-sizing: border-box;*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+min-height: 100%;
+
+
+}
+
+.main-content {
+  width: 66.666%;
+  float: left;
+  border-style: solid;
+  border-color: black;
+  height: auto;
+}
+
+header {
+  float: left;
+  border-style: solid;
+  border-color: black;
+}
+
+.personal {
+  float: right;
+  width: 33.333%;
+  border-style: solid;
+  border-color: black;
+  height: 100%;
+}
+
+footer {
+  float: left;
+  width: 66.666%;
+  border-style: solid;
+  border-color: black;
+  height: 30px;
+}
